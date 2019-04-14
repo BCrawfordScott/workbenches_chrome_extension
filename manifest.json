@@ -1,0 +1,27 @@
+{
+  "name": "Workbenches",
+  "version": "1.0.0",
+  "description": "A Google Chrome extension to manage browsers and tabs as workspaces",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.png",
+      "32": "logo.png",
+      "64": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "64": "logo.png",
+    "128": "logo.png"
+  },
+  "manifest_version": 2
+}
